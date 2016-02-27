@@ -1,0 +1,19 @@
+{
+  "name": "scala-like-option",
+  "version": "1.0.0",
+  "description": "Lib that exposes option with rich Api like Scala option",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint spec/ test/ lib/",
+    "pretest": "npm run lint -s",
+    "test": "mocha test"
+  },
+  "author": "Kfir Bloch",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "chai": "^3.5.0",
+    "eslint": "^2.2.0",
+    "mocha": "^2.4.5"
+  }
+}
