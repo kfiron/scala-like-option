@@ -20,7 +20,8 @@ var transformation = optionFactory.map(content => 'other-content'); // == 'other
 var none = optionFactory.Option(null); // option from null == none
 var none = optionFactory.None();
 var some = optionFactory.Option('some-content'); // Some('some-content')
-val some = some.getOrElse('other-content') // 'some-content'
+var some = some.getOrElse('other-content') // 'some-content'
+var some = some.fold('empty', c => 'data') // returns 'data'
 
 ```
 
