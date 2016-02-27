@@ -3,12 +3,24 @@
   "version": "1.0.0",
   "description": "Lib that exposes option with rich Api like Scala option",
   "main": "index.js",
+  "license": "ISC",
   "scripts": {
     "lint": "eslint spec/ test/ lib/",
     "pretest": "npm run lint -s",
     "test": "mocha test"
   },
-  "author": "Kfir Bloch",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/kfiron/scala-like-option.git"
+  },
+  "keywords": [
+    "option",
+    "option like scala",
+    "monad",
+    "none",
+    "some"
+  ],
+  "author": "Kfir Bloch <kfirb@wix.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^5.0.0",
