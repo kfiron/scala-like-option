@@ -5,8 +5,6 @@
   "main": "index.js",
   "license": "ISC",
   "scripts": {
-    "lint": "eslint spec/ test/ lib/",
-    "pretest": "npm run lint -s",
     "test": "mocha test"
   },
     "repository": {
@@ -23,7 +21,6 @@
   "author": "Kfir Bloch <kfirb@wix.com>",
   "license": "ISC",
   "devDependencies": {
-    "babel-eslint": "^5.0.0",
     "chai": "^3.5.0",
     "eslint": "^2.2.0",
     "mocha": "^2.4.5"
