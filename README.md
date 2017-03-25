@@ -1,5 +1,7 @@
 # scala-like-option
 
+[![Build Status](https://travis-ci.org/kfiron/scala-like-option.svg?branch=master)](https://travis-ci.org/kfiron/scala-like-option)
+
 Option that covers all API functions from Scala
 
 ## install
