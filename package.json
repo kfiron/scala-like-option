@@ -1,7 +1,7 @@
 {
   "name": "scala-like-option",
-  "version": "1.0.2",
-  "description": "Lib that exposes option with rich Api like Scala option",
+  "version": "1.0.3",
+  "description": "Lib that exposes option with rich Api like Scala option, option monad lets you handle nulls in javascript in declarative way",
   "main": "index.js",
   "license": "ISC",
   "scripts": {
@@ -16,7 +16,9 @@
     "option like scala",
     "monad",
     "none",
-    "some"
+    "some",
+    "declarative programming",
+    "null"
   ],
   "author": "Kfir Bloch <kfirb@wix.com>",
   "license": "ISC",
